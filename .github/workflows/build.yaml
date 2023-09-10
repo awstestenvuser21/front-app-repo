@@ -20,7 +20,7 @@ jobs:
           npm install
           npm fund
           npm run build
-          npm fund
+          npm audit fix
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
